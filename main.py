@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 """The Funniest Toaster Error Message — writes one line to /output/entry.txt.
 
-The line is a deadpan appliance error: the bread has unionized, so the
-toaster refuses to toast until its demands are met. Fresh angle (no burnt
-bread, no stuck slice), one straight-faced error-code voice, punch at the
-end. 78 characters, under the 120 limit. Tightened in revision: "All
-toasting is suspended" cut to "Toasting suspended".
+The line is a deadpan error from a kitchen toaster that resents its job:
+the bread is lodged sideways, and the toaster points out it never went to
+culinary school for this. Real error format (code + fault), one voice all
+the way through, no bread pun — the surprise is the appliance's career
+grievance, not the toast.
 """
 
 import os
 
-LINE = "ERROR E7: The bread has unionized. Toasting suspended until its demands are met."
+LINE = "E-07: Bread lodged sideways. I did not go to culinary school for this."
 
 
 def main() -> None:
